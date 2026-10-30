@@ -1,7 +1,6 @@
 # RISC-V-5-Stage-Pipeline
-# Five-Stage Pipelined RV32I Processor
 
-A 32-bit RISC-V processor implemented in Verilog using a five-stage pipeline. The design includes operand forwarding, load-use hazard detection, and pipeline flushing to maintain correct execution across data and control dependencies.
+A 32-bit RISC-V processor implemented in Verilog using a five-stage pipeline for the RV32I base instruction set. The design includes operand forwarding, load-use hazard detection, and pipeline flushing to maintain correct execution across data and control dependencies.
 
 ## Architecture
 
@@ -37,4 +36,5 @@ Expected output: -18, -5, 0, 3, 7, 12, 23, 45
 ```
 
 The bubble-sort testbench checks the sorted array through memory readback and reports execution cycles, stalls, redirects, and CPI.
+
 ![Bubble_Sort_Result](images/bubble_sort_tcl.jpg)
